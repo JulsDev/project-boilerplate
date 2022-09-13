@@ -1,0 +1,8 @@
+$button-color: lightblue;
+$text-size: 16px;
+
+.hello {
+  background: $button-color;
+  font-size: $text-size;
+  font-weight: bold;
+}
