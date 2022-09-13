@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable import/no-unresolved */
 const path = require('path');
 
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');

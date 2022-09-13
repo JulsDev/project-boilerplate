@@ -7,13 +7,11 @@ import hello from '../hello';
 addImage();
 hello();
 
-const App = () => {
-  return (
-    <main>
-      <NavigationBar />
-      <p>Application</p>
-    </main>
-  )
-}
+const App = () => (
+  <main>
+    <NavigationBar />
+    <p>Application</p>
+  </main>
+);
 
 export default App;
