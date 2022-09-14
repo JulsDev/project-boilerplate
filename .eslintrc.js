@@ -21,6 +21,7 @@ module.exports = {
     'no-console': 'warn',
     'no-shadow': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx', '.ts', '.js'] }],
+    'arrow-body-style': ["error", "always"],
     'import/extensions': [
       'error',
       'ignorePackages',

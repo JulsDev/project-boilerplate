@@ -1,17 +1,15 @@
 import React from 'react';
-import NavigationBar from '../NavigationBar';
 
-import addImage from '../addImage';
-import hello from '../hello';
+import Header from '../Header';
+import Home from '../Home';
 
-addImage();
-hello();
-
-const App = () => (
-  <main>
-    <NavigationBar />
-    <p>Application</p>
-  </main>
-);
+const App = () => {
+  return (
+    <main className='wrapper'>
+        <Header />
+        <Home />
+    </main>
+  )
+};
 
 export default App;
