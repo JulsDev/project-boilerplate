@@ -4,4 +4,6 @@
 Webpack 5\
 React 18\
 TypeScript\
-SASS
+SASS\
+Jest\
+ESlint
